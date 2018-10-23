@@ -1,0 +1,6 @@
+framework module Pods_Ouday_Blouza_APP {
+  umbrella header "Pods-Ouday_Blouza_APP-umbrella.h"
+
+  export *
+  module * { export * }
+}

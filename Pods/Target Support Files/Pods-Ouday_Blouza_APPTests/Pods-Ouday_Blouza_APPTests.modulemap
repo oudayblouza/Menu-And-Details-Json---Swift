@@ -1,0 +1,6 @@
+framework module Pods_Ouday_Blouza_APPTests {
+  umbrella header "Pods-Ouday_Blouza_APPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

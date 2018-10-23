@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1654C6A8153818405314D319 /* Pods_Ouday_Blouza_APPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE324E274796C2F5127F2764 /* Pods_Ouday_Blouza_APPTests.framework */; };
+		59A5F44DCCAB4438D294BD9D /* Pods_Ouday_Blouza_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76629FDF8E24BE8DE6FD9C85 /* Pods_Ouday_Blouza_APP.framework */; };
+		79588E64F640CE05CAB5FC75 /* Pods_Ouday_Blouza_APPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C82F8E49AC8B8589650CB /* Pods_Ouday_Blouza_APPUITests.framework */; };
+		866AA22E217F26B300588366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866AA22D217F26B300588366 /* AppDelegate.swift */; };
+		866AA230217F26B300588366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866AA22F217F26B300588366 /* ViewController.swift */; };
+		866AA233217F26B300588366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866AA231217F26B300588366 /* Main.storyboard */; };
+		866AA236217F26B300588366 /* Ouday_Blouza_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 866AA234217F26B300588366 /* Ouday_Blouza_APP.xcdatamodeld */; };
+		866AA238217F26B500588366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866AA237217F26B500588366 /* Assets.xcassets */; };
+		866AA23B217F26B500588366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866AA239217F26B500588366 /* LaunchScreen.storyboard */; };
+		866AA246217F26B500588366 /* Ouday_Blouza_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866AA245217F26B500588366 /* Ouday_Blouza_APPTests.swift */; };
+		866AA251217F26B500588366 /* Ouday_Blouza_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866AA250217F26B500588366 /* Ouday_Blouza_APPUITests.swift */; };
+		866AA260217F27A000588366 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866AA25F217F27A000588366 /* CustomCardView.swift */; };
+		868EB1E3217F2AE500BF69A6 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EB1E2217F2AE500BF69A6 /* News.swift */; };
+		86C57F0A217F30BA003E9C30 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C57F09217F30BA003E9C30 /* URLS.swift */; };
+		86C57F0C217F6013003E9C30 /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C57F0B217F6013003E9C30 /* DetailNewsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		866AA242217F26B500588366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866AA222217F26B300588366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866AA229217F26B300588366;
+			remoteInfo = Ouday_Blouza_APP;
+		};
+		866AA24D217F26B500588366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866AA222217F26B300588366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866AA229217F26B300588366;
+			remoteInfo = Ouday_Blouza_APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31FE298A0E860D40EA4DCEC8 /* Pods-Ouday_Blouza_APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouday_Blouza_APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ouday_Blouza_APP/Pods-Ouday_Blouza_APP.release.xcconfig"; sourceTree = "<group>"; };
+		38CB0AA4650FBFDE0366ED5B /* Pods-Ouday_Blouza_APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouday_Blouza_APP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ouday_Blouza_APP/Pods-Ouday_Blouza_APP.debug.xcconfig"; sourceTree = "<group>"; };
+		612C82F8E49AC8B8589650CB /* Pods_Ouday_Blouza_APPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ouday_Blouza_APPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD63CEC322E51EFC764C137 /* Pods-Ouday_Blouza_APPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouday_Blouza_APPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ouday_Blouza_APPTests/Pods-Ouday_Blouza_APPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76629FDF8E24BE8DE6FD9C85 /* Pods_Ouday_Blouza_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ouday_Blouza_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78425E5E5552AC17078904CB /* Pods-Ouday_Blouza_APPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouday_Blouza_APPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ouday_Blouza_APPUITests/Pods-Ouday_Blouza_APPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		866AA22A217F26B300588366 /* Ouday_Blouza_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ouday_Blouza_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866AA22D217F26B300588366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		866AA22F217F26B300588366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		866AA232217F26B300588366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		866AA235217F26B300588366 /* Ouday_Blouza_APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ouday_Blouza_APP.xcdatamodel; sourceTree = "<group>"; };
+		866AA237217F26B500588366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		866AA23A217F26B500588366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		866AA23C217F26B500588366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866AA241217F26B500588366 /* Ouday_Blouza_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ouday_Blouza_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		866AA245217F26B500588366 /* Ouday_Blouza_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ouday_Blouza_APPTests.swift; sourceTree = "<group>"; };
+		866AA247217F26B500588366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866AA24C217F26B500588366 /* Ouday_Blouza_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ouday_Blouza_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		866AA250217F26B500588366 /* Ouday_Blouza_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ouday_Blouza_APPUITests.swift; sourceTree = "<group>"; };
+		866AA252217F26B500588366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866AA25F217F27A000588366 /* CustomCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		868EB1E2217F2AE500BF69A6 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		86C57F09217F30BA003E9C30 /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		86C57F0B217F6013003E9C30 /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
+		9A03D95293A1F3455ADB2287 /* Pods-Ouday_Blouza_APPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouday_Blouza_APPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ouday_Blouza_APPUITests/Pods-Ouday_Blouza_APPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F774E06D46837F4E78ECEFAA /* Pods-Ouday_Blouza_APPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ouday_Blouza_APPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ouday_Blouza_APPTests/Pods-Ouday_Blouza_APPTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE324E274796C2F5127F2764 /* Pods_Ouday_Blouza_APPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ouday_Blouza_APPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866AA227217F26B300588366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A5F44DCCAB4438D294BD9D /* Pods_Ouday_Blouza_APP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AA23E217F26B500588366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654C6A8153818405314D319 /* Pods_Ouday_Blouza_APPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AA249217F26B500588366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79588E64F640CE05CAB5FC75 /* Pods_Ouday_Blouza_APPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608A0043ADA4C81FBDD0B04F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76629FDF8E24BE8DE6FD9C85 /* Pods_Ouday_Blouza_APP.framework */,
+				FE324E274796C2F5127F2764 /* Pods_Ouday_Blouza_APPTests.framework */,
+				612C82F8E49AC8B8589650CB /* Pods_Ouday_Blouza_APPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		866AA221217F26B300588366 = {
+			isa = PBXGroup;
+			children = (
+				866AA22C217F26B300588366 /* Ouday_Blouza_APP */,
+				866AA244217F26B500588366 /* Ouday_Blouza_APPTests */,
+				866AA24F217F26B500588366 /* Ouday_Blouza_APPUITests */,
+				866AA22B217F26B300588366 /* Products */,
+				DC1A250F32BD14D85C4AD509 /* Pods */,
+				608A0043ADA4C81FBDD0B04F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		866AA22B217F26B300588366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866AA22A217F26B300588366 /* Ouday_Blouza_APP.app */,
+				866AA241217F26B500588366 /* Ouday_Blouza_APPTests.xctest */,
+				866AA24C217F26B500588366 /* Ouday_Blouza_APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866AA22C217F26B300588366 /* Ouday_Blouza_APP */ = {
+			isa = PBXGroup;
+			children = (
+				866AA261217F2A6900588366 /* Model */,
+				866AA25E217F26FC00588366 /* Utils */,
+				866AA22D217F26B300588366 /* AppDelegate.swift */,
+				866AA22F217F26B300588366 /* ViewController.swift */,
+				866AA231217F26B300588366 /* Main.storyboard */,
+				866AA237217F26B500588366 /* Assets.xcassets */,
+				866AA239217F26B500588366 /* LaunchScreen.storyboard */,
+				866AA23C217F26B500588366 /* Info.plist */,
+				866AA234217F26B300588366 /* Ouday_Blouza_APP.xcdatamodeld */,
+				86C57F0B217F6013003E9C30 /* DetailNewsViewController.swift */,
+			);
+			path = Ouday_Blouza_APP;
+			sourceTree = "<group>";
+		};
+		866AA244217F26B500588366 /* Ouday_Blouza_APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				866AA245217F26B500588366 /* Ouday_Blouza_APPTests.swift */,
+				866AA247217F26B500588366 /* Info.plist */,
+			);
+			path = Ouday_Blouza_APPTests;
+			sourceTree = "<group>";
+		};
+		866AA24F217F26B500588366 /* Ouday_Blouza_APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				866AA250217F26B500588366 /* Ouday_Blouza_APPUITests.swift */,
+				866AA252217F26B500588366 /* Info.plist */,
+			);
+			path = Ouday_Blouza_APPUITests;
+			sourceTree = "<group>";
+		};
+		866AA25E217F26FC00588366 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				866AA25F217F27A000588366 /* CustomCardView.swift */,
+				86C57F09217F30BA003E9C30 /* URLS.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		866AA261217F2A6900588366 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868EB1E2217F2AE500BF69A6 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC1A250F32BD14D85C4AD509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38CB0AA4650FBFDE0366ED5B /* Pods-Ouday_Blouza_APP.debug.xcconfig */,
+				31FE298A0E860D40EA4DCEC8 /* Pods-Ouday_Blouza_APP.release.xcconfig */,
+				6AD63CEC322E51EFC764C137 /* Pods-Ouday_Blouza_APPTests.debug.xcconfig */,
+				F774E06D46837F4E78ECEFAA /* Pods-Ouday_Blouza_APPTests.release.xcconfig */,
+				78425E5E5552AC17078904CB /* Pods-Ouday_Blouza_APPUITests.debug.xcconfig */,
+				9A03D95293A1F3455ADB2287 /* Pods-Ouday_Blouza_APPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866AA229217F26B300588366 /* Ouday_Blouza_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866AA255217F26B500588366 /* Build configuration list for PBXNativeTarget "Ouday_Blouza_APP" */;
+			buildPhases = (
+				9DD98B1D689F28A86B2DA1F6 /* [CP] Check Pods Manifest.lock */,
+				866AA226217F26B300588366 /* Sources */,
+				866AA227217F26B300588366 /* Frameworks */,
+				866AA228217F26B300588366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ouday_Blouza_APP;
+			productName = Ouday_Blouza_APP;
+			productReference = 866AA22A217F26B300588366 /* Ouday_Blouza_APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		866AA240217F26B500588366 /* Ouday_Blouza_APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866AA258217F26B500588366 /* Build configuration list for PBXNativeTarget "Ouday_Blouza_APPTests" */;
+			buildPhases = (
+				88BD7F73E7530830027688AD /* [CP] Check Pods Manifest.lock */,
+				866AA23D217F26B500588366 /* Sources */,
+				866AA23E217F26B500588366 /* Frameworks */,
+				866AA23F217F26B500588366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866AA243217F26B500588366 /* PBXTargetDependency */,
+			);
+			name = Ouday_Blouza_APPTests;
+			productName = Ouday_Blouza_APPTests;
+			productReference = 866AA241217F26B500588366 /* Ouday_Blouza_APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		866AA24B217F26B500588366 /* Ouday_Blouza_APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866AA25B217F26B500588366 /* Build configuration list for PBXNativeTarget "Ouday_Blouza_APPUITests" */;
+			buildPhases = (
+				511FA178E308CD538BA3528B /* [CP] Check Pods Manifest.lock */,
+				866AA248217F26B500588366 /* Sources */,
+				866AA249217F26B500588366 /* Frameworks */,
+				866AA24A217F26B500588366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866AA24E217F26B500588366 /* PBXTargetDependency */,
+			);
+			name = Ouday_Blouza_APPUITests;
+			productName = Ouday_Blouza_APPUITests;
+			productReference = 866AA24C217F26B500588366 /* Ouday_Blouza_APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866AA222217F26B300588366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ouday Blouza";
+				TargetAttributes = {
+					866AA229217F26B300588366 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					866AA240217F26B500588366 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 866AA229217F26B300588366;
+					};
+					866AA24B217F26B500588366 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 866AA229217F26B300588366;
+					};
+				};
+			};
+			buildConfigurationList = 866AA225217F26B300588366 /* Build configuration list for PBXProject "Ouday_Blouza_APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 866AA221217F26B300588366;
+			productRefGroup = 866AA22B217F26B300588366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866AA229217F26B300588366 /* Ouday_Blouza_APP */,
+				866AA240217F26B500588366 /* Ouday_Blouza_APPTests */,
+				866AA24B217F26B500588366 /* Ouday_Blouza_APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866AA228217F26B300588366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866AA23B217F26B500588366 /* LaunchScreen.storyboard in Resources */,
+				866AA238217F26B500588366 /* Assets.xcassets in Resources */,
+				866AA233217F26B300588366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AA23F217F26B500588366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AA24A217F26B500588366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		511FA178E308CD538BA3528B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ouday_Blouza_APPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88BD7F73E7530830027688AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ouday_Blouza_APPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD98B1D689F28A86B2DA1F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ouday_Blouza_APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866AA226217F26B300588366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C57F0A217F30BA003E9C30 /* URLS.swift in Sources */,
+				866AA230217F26B300588366 /* ViewController.swift in Sources */,
+				866AA22E217F26B300588366 /* AppDelegate.swift in Sources */,
+				866AA236217F26B300588366 /* Ouday_Blouza_APP.xcdatamodeld in Sources */,
+				868EB1E3217F2AE500BF69A6 /* News.swift in Sources */,
+				866AA260217F27A000588366 /* CustomCardView.swift in Sources */,
+				86C57F0C217F6013003E9C30 /* DetailNewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AA23D217F26B500588366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866AA246217F26B500588366 /* Ouday_Blouza_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866AA248217F26B500588366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866AA251217F26B500588366 /* Ouday_Blouza_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		866AA243217F26B500588366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866AA229217F26B300588366 /* Ouday_Blouza_APP */;
+			targetProxy = 866AA242217F26B500588366 /* PBXContainerItemProxy */;
+		};
+		866AA24E217F26B500588366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866AA229217F26B300588366 /* Ouday_Blouza_APP */;
+			targetProxy = 866AA24D217F26B500588366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		866AA231217F26B300588366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866AA232217F26B300588366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		866AA239217F26B500588366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866AA23A217F26B500588366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		866AA253217F26B500588366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		866AA254217F26B500588366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		866AA256217F26B500588366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CB0AA4650FBFDE0366ED5B /* Pods-Ouday_Blouza_APP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KKRF2YRN4;
+				INFOPLIST_FILE = Ouday_Blouza_APP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blouza-Corp.Ouday-Blouza-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		866AA257217F26B500588366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FE298A0E860D40EA4DCEC8 /* Pods-Ouday_Blouza_APP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KKRF2YRN4;
+				INFOPLIST_FILE = Ouday_Blouza_APP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blouza-Corp.Ouday-Blouza-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		866AA259217F26B500588366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD63CEC322E51EFC764C137 /* Pods-Ouday_Blouza_APPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KKRF2YRN4;
+				INFOPLIST_FILE = Ouday_Blouza_APPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blouza-Corp.Ouday-Blouza-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ouday_Blouza_APP.app/Ouday_Blouza_APP";
+			};
+			name = Debug;
+		};
+		866AA25A217F26B500588366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F774E06D46837F4E78ECEFAA /* Pods-Ouday_Blouza_APPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KKRF2YRN4;
+				INFOPLIST_FILE = Ouday_Blouza_APPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blouza-Corp.Ouday-Blouza-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ouday_Blouza_APP.app/Ouday_Blouza_APP";
+			};
+			name = Release;
+		};
+		866AA25C217F26B500588366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78425E5E5552AC17078904CB /* Pods-Ouday_Blouza_APPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KKRF2YRN4;
+				INFOPLIST_FILE = Ouday_Blouza_APPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blouza-Corp.Ouday-Blouza-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ouday_Blouza_APP;
+			};
+			name = Debug;
+		};
+		866AA25D217F26B500588366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A03D95293A1F3455ADB2287 /* Pods-Ouday_Blouza_APPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KKRF2YRN4;
+				INFOPLIST_FILE = Ouday_Blouza_APPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blouza-Corp.Ouday-Blouza-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ouday_Blouza_APP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866AA225217F26B300588366 /* Build configuration list for PBXProject "Ouday_Blouza_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866AA253217F26B500588366 /* Debug */,
+				866AA254217F26B500588366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866AA255217F26B500588366 /* Build configuration list for PBXNativeTarget "Ouday_Blouza_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866AA256217F26B500588366 /* Debug */,
+				866AA257217F26B500588366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866AA258217F26B500588366 /* Build configuration list for PBXNativeTarget "Ouday_Blouza_APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866AA259217F26B500588366 /* Debug */,
+				866AA25A217F26B500588366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866AA25B217F26B500588366 /* Build configuration list for PBXNativeTarget "Ouday_Blouza_APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866AA25C217F26B500588366 /* Debug */,
+				866AA25D217F26B500588366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		866AA234217F26B300588366 /* Ouday_Blouza_APP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				866AA235217F26B300588366 /* Ouday_Blouza_APP.xcdatamodel */,
+			);
+			currentVersion = 866AA235217F26B300588366 /* Ouday_Blouza_APP.xcdatamodel */;
+			path = Ouday_Blouza_APP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 866AA222217F26B300588366 /* Project object */;
+}
